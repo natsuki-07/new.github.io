@@ -162,6 +162,7 @@ height: auto;
   height: auto;
   overflow: hidden;
   color: #ffffff;
+
   h2{
     display: flex;
     justify-content: center;
@@ -332,6 +333,8 @@ header{
   }
 }
 .nav_close{
+  position: absolute;
+  right: -169px;
   display:none;
 }
 
@@ -437,10 +440,11 @@ header{
 ===================*/
 .workboxes{
   display:flex;
-  justify-content:center;
-  }
+  justify-content: center;
+}
 .workbox{
   margin: 0 20px;
+  
   .work{
     img{
       width: 80%;
