@@ -356,8 +356,7 @@ footer .pagetop a {
     color: #333333;
   }
   header .nav_close {
-    position: absolute;
-    right: -169px;
+  display:none;    
   }
   .humberger {
     width: 50px;
@@ -436,6 +435,10 @@ footer .pagetop a {
   /*===================
    WORK
 ===================*/
+  .workboxes{
+  display:flex;
+    justify-content:center;
+  }
   .workbox {
     margin: 0 20px;
   }
