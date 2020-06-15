@@ -435,7 +435,10 @@ header{
 /*===================
    WORK
 ===================*/
-
+.workboxes{
+  display:flex;
+  justify-content:center;
+  }
 .workbox{
   margin: 0 20px;
   .work{
