@@ -358,7 +358,6 @@ header{
     width: 30px;
     height: 2px;
     border-radius: 3px;
-    transition: all 0.5s;
     transform:translateY(0px);
   }
   .top{
@@ -378,11 +377,13 @@ header{
         display: none;
       }
       .top{
-        transform:rotate(-405deg);
+        transform:rotate(-765deg);
+        transition: all 2.0s;
         margin-top: 5px;
       }
       .bottom{
-        transform: rotate(405deg);
+        transform: rotate(765deg);
+        transition: all 1.5s;
         margin-top: -9px;
       }
     }
