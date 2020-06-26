@@ -378,7 +378,6 @@ footer .pagetop a {
     width: 30px;
     height: 2px;
     border-radius: 3px;
-    transition: all 0.5s;
     transform: translateY(0px);
   }
   .humberger .top {
@@ -393,11 +392,13 @@ footer .pagetop a {
     display: none;
   }
   .open .top {
-    transform: rotate(-405deg);
+    transform: rotate(-765deg);
+    transition: all 2.0s;
     margin-top: 5px;
   }
   .open .bottom {
-    transform: rotate(405deg);
+    transform: rotate(765deg);
+    transition: all 1.5s;
     margin-top: -9px;
   }
   #slideshow .slides img {
