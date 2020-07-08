@@ -204,6 +204,7 @@ header nav ul li a:hover {
   font-size: 20px;
 }
 
+
 #works .work img {
   box-shadow: 0 0 2px 2px #fff;
 }
@@ -456,6 +457,9 @@ footer .pagetop a {
   }
   .workbox .work_explain p {
     width: 80%;
+  }
+  .tet_explain{
+    padding-left: 40px;
   }
   /*===================================
        contact
