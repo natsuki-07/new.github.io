@@ -200,10 +200,16 @@ header nav ul li a:hover {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
 
-#works .workboxes .work_explain p {
-  font-size: 20px;
+#works .workboxes .work_explain {
+  text-align: center;
+  margin: 0 auto;
 }
 
+#works .workboxes .work_explain p {
+  font-size: 20px;
+  padding: 0 10px;
+  margin: 20px auto;
+}
 
 #works .work img {
   box-shadow: 0 0 2px 2px #fff;
@@ -457,9 +463,6 @@ footer .pagetop a {
   }
   .workbox .work_explain p {
     width: 80%;
-  }
-  .tet_explain{
-    padding-left: 40px;
   }
   /*===================================
        contact
