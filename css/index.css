@@ -196,6 +196,7 @@ header nav ul li a:hover {
 #works .explainLink {
   text-align: center;
   padding: 10px;
+  font-size: 1.1rem;
 }
 
 #works .workboxes {
