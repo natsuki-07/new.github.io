@@ -193,6 +193,11 @@ header nav ul li a:hover {
   padding-top: 50px;
 }
 
+#works .explainLink {
+  text-align: center;
+  padding: 10px;
+}
+
 #works .workboxes {
   display: grid;
   gap: 10px;
